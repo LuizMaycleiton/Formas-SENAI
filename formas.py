@@ -14,7 +14,12 @@ def circulo():
     conta_circulo = pi * conta_raio 
     print(conta_circulo)
 
-
+def triangulo():
+    base = float(input("Digite o valor da base: "))
+    altura = float(input("Digite o valor da altura: "))
+    calculo_01 = base * altura
+    calculo_final = calculo_01 / 2
+    print(calculo_final) 
 
 
 
@@ -44,3 +49,7 @@ while True:
 
     if opcao == "1":
         circulo()
+
+    elif opcao == "2":
+        triangulo()
+    
