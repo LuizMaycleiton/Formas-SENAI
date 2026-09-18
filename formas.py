@@ -21,7 +21,10 @@ def triangulo():
     calculo_final = calculo_01 / 2
     print(calculo_final) 
 
-
+def quadrado():
+    lado = float(input("Digite o valor do lado: "))
+    calculo_final = lado * lado
+    print(calculo_final)
 
 
 
@@ -44,6 +47,7 @@ while True:
     print("5 - Paralelograma")
     print("6 - Losango")
     print("7 - Trapézio")
+    print("0 - Sair")
 
     opcao = input("Escolha uma opcão: ")
 
@@ -52,4 +56,10 @@ while True:
 
     elif opcao == "2":
         triangulo()
-    
+
+    elif opcao == "3":
+        quadrado()
+
+    elif opcao == "0":
+        print("Saindo do Sistema... ")
+        break
