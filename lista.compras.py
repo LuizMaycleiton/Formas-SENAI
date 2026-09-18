@@ -16,7 +16,7 @@ def modificar():
     antigo = input("Escreva o item que você quer MODIFICAR: ")
 
     if antigo in lista_compras:
-        novo = input(f"Escreva o novo valor para substituir '{antigo}': ")
+        novo = input(f"Escreva o novo valor para substituir {antigo}: ")
         posicao = lista_compras.index(antigo)
         lista_compras[posicao] = novo
         print("Item modificado com sucesso!")
